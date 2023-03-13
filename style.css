@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0; 
+}   
+
+.header {
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    padding: 0;
+    background: no-repeat url(./pictures/header_picture.png) ;
+}
+
+.header-gradient {
+    position: absolute;
+    width: 1920px;
+    height: 491px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.595076) 31.64%, rgba(51, 51, 51, 0.222586) 74.35%, rgba(51, 51, 51, 0) 99.87%);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    margin: 0 360px;
+    padding-top: 52px;
+}
+
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.menu-item {
+    margin-right: 45px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-text {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.w-word {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+
+.firstletter {
+    position: absolute;
+    width: 38px;
+    height: 42px;
+    left: 382px;
+    top: 35px;
+}
+
+.secondletter {
+    position: absolute;
+    width: 38px;
+    height: 42px;
+    left: 360px;
+    top: 56px;
+}
+
+.title {
+    position: absolute;
+    width: 654px;
+    height: 235px;
+    left: 654px;
+    top: 341px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 235px;
+    letter-spacing: 0.6px;
+}
+
+.subtitle {
+    position: absolute;
+    width: 426px;
+    height: 28px;
+    left: 747px;
+    top: 576px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+
+.header-logo {
+    position: absolute;
+    left: 49.48%;
+    right: 49.48%;
+    top: 935px;
+}
+
+.aboutschool-maincontainer {
+    width: 1920px;
+    height: 966px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutschool-container-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.6px;
+    padding-top: 189px;
+    margin-bottom: 100px;
+}
+
+.slash {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    width: 48px;
+    height: 85px;   
+    color: #00B2A0;
+    position: absolute;
+    left: 1406px;
+    top: 1272px;
+}
+
+.aboutschool-textcontainer {
+    display: flex;
+}
+.aboutschool-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 480px;
+}
+
+.aboutschool-text {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+    height: 87px;
+}
